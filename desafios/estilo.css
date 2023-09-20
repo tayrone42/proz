@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    background-color: rgb(245, 242, 242);
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+header ul {
+    display: flex;
+    gap: 15rem;
+    list-style: none;    
+}
+header ul li  a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: rgb(36, 14, 134);
+}
+
+main h1 {
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 30px auto;
+    color: rgb(112, 47, 173);
+}
+.secao1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.secao1 p {
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    height: 300px;
+    background-color: black;
+}
+footer section{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;     
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
+footer section ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: start;  
+      
+}
+footer section ul li {
+    padding: 10px;
+}
+
+footer section ul li a {
+    text-decoration: none;
+    font-size: 28px;
+    color: white;    
+}
+
+footer section form{
+    height: 100px;
+    background-color: aliceblue;
+    padding: 20px;
+}
+
+footer section form input{
+    width: 30rem;
+    background-color: aqua;
+}
+footer section form button{
+    width: 30rem;
+    background-color: rgb(190, 176, 204);
+}
