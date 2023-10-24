@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+
+header figure img {
+    display: flex;
+    width: 300px; 
+    height: 70px;  
+}
+
+
+header ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+
+header ul li a {
+    text-decoration: none;
+    color: rgb(43, 40, 40);
+    font-weight: 600;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+
+.bt-cadastro {
+    color: white;
+    background-color: orange;
+}
+
+.banner-principal {
+    background-image: url("https://d335luupugsy2.cloudfront.net/cms/files/467972/1683048679/$7dxv2wmu1v9");    
+    height: 500px;
+    width: 100%;
+}
+
+.banner-principal section{
+    position: relative;
+    top: 100px;
+    left: 300px;
+    line-height: 40px;
+}
+
+
+.banner-principal h1 {
+    color: white;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.banner-principal h2 {
+    color: white;
+    font-size: 28px;
+}
+
+.banner-principal button {
+    background-color: orange;
+    color: white;
+    font-size: 28px;
+    border-radius: 20px;
+    padding: 3px 20px;
+    margin-top: 20px;
+}
+
+.secao-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    line-height: 24px;
+    background-color: #232F3E;
+    width: 100%;
+}
+.secao-1 h2 {
+    color: #FF9900;
+    font-size: 36px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+.secao-1 p {
+    font-size: 18px;
+    color: white;
+}
+
+.p-formacao {
+    margin-top: 20px;
+}
+
+.p-formacao span {
+    color: #FF9900;
+}
+
+.secao-1 img {
+    max-width: 800px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.duracao {
+    height: 240px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.duracao img {
+    height: 200px;
+    width: 800px;
+    
+}
+
+.objetivo {
+    width: 100%;
+    height: 500px;
+    background-color: orange;
+    text-align: center;
+    line-height: 30px;
+    padding-top: 50px;
+}
+
+.objetivo h2 {
+    color: #232F3E;
+    margin-bottom: 20px ;
+}
+
+.objetivo p {
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.objetivo button {
+    color: white;
+    background-color: #232F3E;
+    font-size: 28px;
+    border-radius: 20px;
+    padding: 3px 20px;
+}
+
+.processo-seletivo {
+    background-color: #F2F3F4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.processo-seletivo h2 {
+    color: #FF9900;
+    font-size: 36px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.processo-seletivo img {
+    width: 800px;
+    margin-bottom: 30px;
+}
+
+.processo-seletivo p {
+    color: #898989;
+    
+}
+
+.processo-seletivo button {
+    color: white;
+    background-color: #FF9900;
+    font-size: 28px;
+    border-radius: 20px;
+    padding: 3px 20px;
+    margin: 30px 0;
+}
+
+.depoimentos {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px 0;
+}
+
+.depoimentos img {
+    width: 600px;
+    height: 400px
+}
+.depoimentos video {
+    width: 600px;
+    height: 400px;
+}
+
+.projeto-integrador {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.projeto-integrador h2{
+    color: #FF9900;
+    font-size: 36px;
+}
+
+.projeto-integrador p {
+    line-height: 26px;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.projeto-integrador h3 {
+    color: #232F3E;
+}
+
+.formacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;    
+    background-color: #35415D;
+    padding: 150px 0;
+}
+
+.formacao p {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.formacao button {
+    color: white;
+    background-color: #FF9900;
+    font-size: 28px;
+    border-radius: 20px;
+    padding: 3px 20px;
+    margin: 30px 0;
+}
